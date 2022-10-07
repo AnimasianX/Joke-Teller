@@ -33,7 +33,7 @@ async function getJokes() {
 //passing joke to our text to speech api
 function tellMe(joke) {
     VoiceRSS.speech({
-        key: <your api key here>,
+        key: 4f4a1f176f774e1f94f667e91f2a794f,
         src: joke,
         hl: 'en-us',
         v: 'Linda',
